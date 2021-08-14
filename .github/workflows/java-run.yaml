@@ -15,3 +15,6 @@ jobs:
       with:
         distribution: 'adopt'
         java-version: 11
+    - run: java --version
+    - run: javac HelloWorld.java
+    - run: java HelloWorld
